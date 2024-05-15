@@ -161,7 +161,7 @@ class BubbleSort {
                 public String format(LogRecord record) {
                     LocalDateTime now = LocalDateTime.now();
                     Object DateTimeFormatter = now.format();
-                    String format = now.format(DateTimeFormatter.ISO_DATE_TIME2);
+                    String format = now.format(DateTimeFormatter.ISO_DATE_TIME3);
                     String s = String.valueOf(LocalDate.now() + " " + hourNow + "\n");
                     return s;
                 }
